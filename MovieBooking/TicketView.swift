@@ -14,7 +14,7 @@ struct TicketView: View {
         ZStack {
             CircleBackground(color: Color("greenCircle"))
                 .blur(radius: animate ? 30 : 100)
-                .offset(x: animate ? 20 : 100, y: animate ? 50 : 100)
+                .offset(x: animate ? -50 : -130, y: animate ? -30 : -100)
                 .task {
                     withAnimation {
                         animate.toggle()
@@ -23,7 +23,7 @@ struct TicketView: View {
 
             CircleBackground(color: Color("pinkCircle"))
                 .blur(radius: animate ? 30 : 100)
-                .offset(x: animate ? 100 : 150, y: animate ? -30 : 150)
+                .offset(x: animate ? 100 : 130, y: animate ? 150 : 100)
 
             VStack(spacing: 30.0) {
                 Text("Mobile Ticket")
@@ -39,6 +39,9 @@ struct TicketView: View {
             }
             .padding(.horizontal, 20)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+
+            Tickets()
+                .padding(.top, 30)
         }
         .background(
             LinearGradient(gradient: Gradient(colors: [Color("backgroundColor"), Color("backgroundColor2")]), startPoint: .top, endPoint: .bottom)

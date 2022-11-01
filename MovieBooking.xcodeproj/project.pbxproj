@@ -23,6 +23,14 @@
 		522A6A37290CCA7500402D2D /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A6A36290CCA7500402D2D /* TicketView.swift */; };
 		522A6A3B290CCEC300402D2D /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A6A3A290CCEC300402D2D /* Ticket.swift */; };
 		522A6A3D290CE04700402D2D /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A6A3C290CE04700402D2D /* Tickets.swift */; };
+		5234AC462910C01300A6C199 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234AC452910C01300A6C199 /* TabData.swift */; };
+		5234AC482910C18E00A6C199 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234AC472910C18E00A6C199 /* CustomTabBar.swift */; };
+		5234AC4A2910C7B600A6C199 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234AC492910C7B600A6C199 /* HomeView.swift */; };
+		5234AC4C2910C89600A6C199 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234AC4B2910C89600A6C199 /* CustomSearchBar.swift */; };
+		5234AC4E2910C99300A6C199 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234AC4D2910C99300A6C199 /* ScrollSection.swift */; };
+		5234AC502910CC4C00A6C199 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234AC4F2910CC4C00A6C199 /* BookingView.swift */; };
+		5234AC522910D7BF00A6C199 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234AC512910D7BF00A6C199 /* SeatsView.swift */; };
+		5234AC542910D7D200A6C199 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234AC532910D7D200A6C199 /* LargeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +51,14 @@
 		522A6A36290CCA7500402D2D /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		522A6A3A290CCEC300402D2D /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		522A6A3C290CE04700402D2D /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		5234AC452910C01300A6C199 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		5234AC472910C18E00A6C199 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		5234AC492910C7B600A6C199 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5234AC4B2910C89600A6C199 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		5234AC4D2910C99300A6C199 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		5234AC4F2910CC4C00A6C199 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		5234AC512910D7BF00A6C199 /* SeatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeatsView.swift; path = "../../../Downloads/Assets/MovieBooking Final Project/MovieBooking/Views/SeatsView.swift"; sourceTree = "<group>"; };
+		5234AC532910D7D200A6C199 /* LargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LargeButton.swift; path = "../../../../Downloads/Assets/MovieBooking Final Project/MovieBooking/Buttons/LargeButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +120,7 @@
 				33D8599328AC17A200C842CF /* DateButton.swift */,
 				33D8599A28AC26E000C842CF /* CircleButton.swift */,
 				3314728028B038C1000AFD83 /* RoundButton.swift */,
+				5234AC532910D7D200A6C199 /* LargeButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -113,6 +130,7 @@
 			children = (
 				33D8598D28AC0EA600C842CF /* TicketData.swift */,
 				33D8598F28AC10A500C842CF /* PosterData.swift */,
+				5234AC452910C01300A6C199 /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -122,6 +140,9 @@
 			children = (
 				33D8599628AC1E4D00C842CF /* CircleBackground.swift */,
 				3314727C28B03430000AFD83 /* StatusUI.swift */,
+				5234AC472910C18E00A6C199 /* CustomTabBar.swift */,
+				5234AC4B2910C89600A6C199 /* CustomSearchBar.swift */,
+				5234AC4D2910C99300A6C199 /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -130,6 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				522A6A36290CCA7500402D2D /* TicketView.swift */,
+				5234AC492910C7B600A6C199 /* HomeView.swift */,
+				5234AC4F2910CC4C00A6C199 /* BookingView.swift */,
+				5234AC512910D7BF00A6C199 /* SeatsView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -214,19 +238,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D8599228AC179800C842CF /* TimeButton.swift in Sources */,
+				5234AC542910D7D200A6C199 /* LargeButton.swift in Sources */,
+				5234AC462910C01300A6C199 /* TabData.swift in Sources */,
 				33D8597E28ABDDCB00C842CF /* ContentView.swift in Sources */,
 				33D8598E28AC0EA600C842CF /* TicketData.swift in Sources */,
+				5234AC502910CC4C00A6C199 /* BookingView.swift in Sources */,
+				5234AC482910C18E00A6C199 /* CustomTabBar.swift in Sources */,
+				5234AC4A2910C7B600A6C199 /* HomeView.swift in Sources */,
 				3314728328B038DF000AFD83 /* utils.swift in Sources */,
 				3314727D28B03430000AFD83 /* StatusUI.swift in Sources */,
 				3314728128B038C1000AFD83 /* RoundButton.swift in Sources */,
+				5234AC522910D7BF00A6C199 /* SeatsView.swift in Sources */,
 				522A6A3B290CCEC300402D2D /* Ticket.swift in Sources */,
 				522A6A37290CCA7500402D2D /* TicketView.swift in Sources */,
 				33D8599B28AC26E000C842CF /* CircleButton.swift in Sources */,
 				33D8599028AC10A500C842CF /* PosterData.swift in Sources */,
 				33D8599728AC1E4D00C842CF /* CircleBackground.swift in Sources */,
+				5234AC4C2910C89600A6C199 /* CustomSearchBar.swift in Sources */,
 				33D8597C28ABDDCB00C842CF /* MovieBookingApp.swift in Sources */,
 				33D8599428AC17A200C842CF /* DateButton.swift in Sources */,
 				522A6A3D290CE04700402D2D /* Tickets.swift in Sources */,
+				5234AC4E2910C99300A6C199 /* ScrollSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

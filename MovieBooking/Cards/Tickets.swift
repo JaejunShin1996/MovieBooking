@@ -39,15 +39,22 @@ struct InfiniteStackView: View {
             Ticket(title: ticket.title, subtitle: ticket.subtitle, top: ticket.top, bottom: ticket.bottom, height: $height)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .zIndex( getIndex() == 0 && offset > 150 ?
+        // stacks up the deck fo cards and shows the next time as the cards goes on the edge of the screen.
+        .zIndex(getIndex() == 0 && offset > 150 ?
                  Double(CGFloat(tickets.count) - getIndex()) - 1 : Double(CGFloat(tickets.count) - getIndex()))
+        // locates the card as it is dragged.
         .rotationEffect(.init(degrees: getRotation(angle: 10)))
+        // gives sligtly rotated effect on behind two cards.
         .rotationEffect(getIndex() == 1 ? .degrees(-6) : .degrees(0))
         .rotationEffect(getIndex() == 2 ? .degrees(6) : .degrees(0))
+        // gets the first card slightly bigger.
         .scaleEffect(getIndex() == 0 ? 1 : 0.9)
+        // moves behind two cards left and right.
         .offset(x: getIndex() == 1 ? -40 : 0)
         .offset(x: getIndex() == 2 ? 40 : 0)
+        // relocates as the offset value modifies.
         .offset(x: offset)
+        // dragging gestures along with more actions.
         .gesture(
             DragGesture()
                 .updating($isDragging, body: { _, out, _ in
